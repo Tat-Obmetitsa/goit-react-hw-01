@@ -1,0 +1,28 @@
+table {
+  text-align: center;
+}
+.title {
+    color: #fff;
+    background-color: #5c2c4b;
+}
+.item {
+    min-width: 250px;
+    color: #813a5a;
+    border-bottom: 1px solid rgb(240, 218, 198);;
+}
+.title, .item {
+    padding: 10px;
+    height: 20px;
+}
+.item:first-child {
+    width: 150px;
+    min-width: 0;
+}
+
+.item:last-child {
+    width: 80px;
+    min-width: 0;
+}
+tr:nth-child(odd) {
+    background-color: rgb(240, 218, 198);
+}
